@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-color: teal;
+}
+
+.app{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+    margin: 50px 0px 30px 0px;
+    text-align: center;
+    font-size: 80px;
+}
+
+header p{
+    font-size: 25px;
+    text-align: center;
+}
+
+.pads{
+    width: 100%;
+    display: flex;
+    /* background-color: indianred; */
+
+}
+
+.visual .btn{
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    margin: 0px 20px;
+    outline: none;
+    background: none;
+    border-color: black;
+    border: 3px solid wheat;
+}
+
+
